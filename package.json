@@ -1,0 +1,35 @@
+{
+  "name": "challenge",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -clean-world -make-world && next build",
+    "dev": "yarn next dev -p 8080",
+    "dev:reason": "bsb -clean-world -make-world -w",
+    "dev:full": "bsb -clean-world -make-world && yarn dev"
+  },
+  "keywords": [
+    "BuckleScript",
+    "ReasonReact",
+    "reason-react"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-bucklescript": "^0.5.3",
+    "bs-css": "^11.0.0",
+    "next": "^9.2.2",
+    "next-transpile-modules": "^3.0.2",
+    "re-classnames": "^4.1.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-hook-form": "^4.9.8",
+    "reason-react": ">=0.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.7",
+    "@types/react": "^16.9.23",
+    "bs-platform": "^7.1.1",
+    "moduleserve": "^0.9.0",
+    "typescript": "^3.8.3"
+  }
+}
