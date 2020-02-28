@@ -1,3 +1,5 @@
+[@bs.val] external alert: string => unit = "alert";
+
 let firstNameInput =
   ReactHookState.formInput(~required={value: true, message: "REQUIRED"}, ());
 
@@ -18,7 +20,8 @@ let make = () => {
   let form = ReactHookState.useForm();
   let onSubmit =
     form.handleSubmit(data => {
-      Js.Console.log2("Submitted Form Data: ", data)
+      alert("Submitted Form Data: " ++ data->Js.Json.stringify);
+      ();
     });
   <form onSubmit className=Styles.form>
     <Input
