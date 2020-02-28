@@ -8,3 +8,4 @@ npm-debug.log
 .next/
 /**/*.bs.js
 yarn-error.log
+.now
