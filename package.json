@@ -17,7 +17,7 @@
   "dependencies": {
     "babel-plugin-bucklescript": "^0.5.3",
     "bs-css": "^11.0.0",
-    "next": "^9.3.2",
+    "next": "^11.1.0",
     "next-transpile-modules": "^3.0.2",
     "re-classnames": "^4.1.0",
     "react": "^16.8.1",
